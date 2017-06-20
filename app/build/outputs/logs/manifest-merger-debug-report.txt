@@ -1,0 +1,74 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:1:1-15:12
+	package
+		ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:2:11-42
+		INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml
+application
+ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:3:5-14:19
+MERGED from [com.hannesdorfmann.mosby:viewstate:2.0.1] C:\Users\Chashurin Evgeny\.android\build-cache\cfca4edbb059297c75a9c3bcb0bbaac89e243c93\output\AndroidManifest.xml:11:5-20
+MERGED from [com.hannesdorfmann.mosby:mvp:2.0.1] C:\Users\Chashurin Evgeny\.android\build-cache\2081a6d1126b86d19bc24443bc6a426f3e867a57\output\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\a768c4434f1d2398ddc9d55db59d7132e54629eb\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\16c4c0484b47109b11b9ce2764de68b403267ea4\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\5fd5de6e0af0fbb0b77f6d5e6f3e4cba9077748a\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\a7a1be4f92bbe004bf8c1d132ea5c0942c651b52\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\8e1a3e232cbb5d4226996bd7e92e686548f0d5ec\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\4654154725f19d74c5d7d455446749a69e258b77\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\8d471bcf06d9ce6180aba00daab80e63ee5d120d\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\67bc350402d1a9c9a1493abdb188f0de43f509b3\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\b10e3445c20822f698c70f4d4bb639fd6299ac9d\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:4:18-50
+	android:supportsRtl
+		ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:6:18-44
+	android:allowBackup
+		ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:3:18-44
+	android:icon
+		ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:5:18-52
+	android:theme
+		ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:7:18-49
+activity#ru.geekbrains.gviewer.view.InfoActivity
+ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:8:9-13:20
+	android:name
+		ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:8:19-52
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:9:13-12:29
+action#android.intent.action.MAIN
+ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:10:17-68
+	android:name
+		ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:10:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:11:17-76
+	android:name
+		ADDED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml:11:27-74
+uses-sdk
+INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.hannesdorfmann.mosby:viewstate:2.0.1] C:\Users\Chashurin Evgeny\.android\build-cache\cfca4edbb059297c75a9c3bcb0bbaac89e243c93\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.hannesdorfmann.mosby:mvp:2.0.1] C:\Users\Chashurin Evgeny\.android\build-cache\2081a6d1126b86d19bc24443bc6a426f3e867a57\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\a768c4434f1d2398ddc9d55db59d7132e54629eb\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\16c4c0484b47109b11b9ce2764de68b403267ea4\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\5fd5de6e0af0fbb0b77f6d5e6f3e4cba9077748a\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\a7a1be4f92bbe004bf8c1d132ea5c0942c651b52\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\8e1a3e232cbb5d4226996bd7e92e686548f0d5ec\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\4654154725f19d74c5d7d455446749a69e258b77\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\8d471bcf06d9ce6180aba00daab80e63ee5d120d\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\67bc350402d1a9c9a1493abdb188f0de43f509b3\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\b10e3445c20822f698c70f4d4bb639fd6299ac9d\output\AndroidManifest.xml:21:5-23:58
+MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Chashurin Evgeny\.android\build-cache\8fac52b0796a539ec5b873d25e8e358a30d1a630\output\AndroidManifest.xml:19:5-43
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Chashurin Evgeny\.android\build-cache\a768c4434f1d2398ddc9d55db59d7132e54629eb\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Programming\Projects\Android_Project\Android3\Lessons_2\A3_Lesson02\app\src\main\AndroidManifest.xml

@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="viewstate-2.0.1">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.android/build-cache/cfca4edbb059297c75a9c3bcb0bbaac89e243c93/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/cfca4edbb059297c75a9c3bcb0bbaac89e243c93/output/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.hannesdorfmann.mosby/viewstate/2.0.1/d757a518e60356d0a90a9fcbda61aa011c3a0eb4/viewstate-2.0.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
