@@ -15,17 +15,20 @@ ADDED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml:1:1-
 		INJECTED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml
 application
 ADDED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml:3:5-14:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Чашурин\.android\build-cache\f0916650bf70c4b63acce656cbef8be6f3a0817a\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Чашурин\.android\build-cache\644d2bfbf267f4d2e07a3e1cb99e89b46c1963c3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Чашурин\.android\build-cache\f7fbad23daebbf590ca6855209a916ac6864b86d\output\AndroidManifest.xml:26:5-20
 MERGED from [com.hannesdorfmann.mosby:viewstate:2.0.1] C:\Users\Чашурин\.android\build-cache\3c42ab4e0d91dcb150f97c01da13faaeb6b3e539\output\AndroidManifest.xml:11:5-20
 MERGED from [com.hannesdorfmann.mosby:mvp:2.0.1] C:\Users\Чашурин\.android\build-cache\7175168d2384498ed6a48d009fc5d31bacadcc05\output\AndroidManifest.xml:11:5-20
-MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Чашурин\.android\build-cache\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Чашурин\.android\build-cache\7d492951b72481cdf2924580fbe967d6f48688e8\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Чашурин\.android\build-cache\0633534188c162c857c38b8c3b11bd96937c34d2\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Чашурин\.android\build-cache\40f217174ae907953cb538e8c79e7f3b41360887\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Чашурин\.android\build-cache\86e479ed1343526b718a7d273c4a57393403c3bf\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Чашурин\.android\build-cache\de434be17025fb480eaed52d93cd3685fa07bbd3\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Чашурин\.android\build-cache\c0aa83e45aed4431babd05ab918d693b9fccb217\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Чашурин\.android\build-cache\30c608ec13ba8760d2f9c81a581b651a40aeac83\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Чашурин\.android\build-cache\ebedff1bea0e8b519ceab885981557351ab2ca45\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Чашурин\.android\build-cache\5273bd9be6f87099615b080d876d6318ee8caeda\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Чашурин\.android\build-cache\4f75aea53988c87b3261651b1a74c25dc56160cb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Чашурин\.android\build-cache\a44e0eb22d99832f8d8293a740bcd12956304ca0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Чашурин\.android\build-cache\654e8f2df56fac58a7242a254725baa2807187fc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Чашурин\.android\build-cache\88892dbdbe723c2559c7d5c5ffd8f712d02a27fe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Чашурин\.android\build-cache\909febab4978048351315c92b68a75b9b8cf2149\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Чашурин\.android\build-cache\ab37f6410ec27efbf6bc3e4d200de90e178cc79a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Чашурин\.android\build-cache\b7bdfa2e9fbb62c89dfa43873b4f5175331a2813\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Чашурин\.android\build-cache\1040afceedd5172cc2b44df9d15b10f4ce53837e\output\AndroidManifest.xml:29:5-20
 	android:label
 		ADDED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml:4:18-50
 	android:supportsRtl
@@ -52,23 +55,44 @@ ADDED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml:11:1
 		ADDED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml:11:27-74
 uses-sdk
 INJECTED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Чашурин\.android\build-cache\f0916650bf70c4b63acce656cbef8be6f3a0817a\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Чашурин\.android\build-cache\644d2bfbf267f4d2e07a3e1cb99e89b46c1963c3\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Чашурин\.android\build-cache\9597c37052fc2a0b752c3797d4f6673abad7566a\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Чашурин\.android\build-cache\f7fbad23daebbf590ca6855209a916ac6864b86d\output\AndroidManifest.xml:20:5-44
 MERGED from [com.hannesdorfmann.mosby:viewstate:2.0.1] C:\Users\Чашурин\.android\build-cache\3c42ab4e0d91dcb150f97c01da13faaeb6b3e539\output\AndroidManifest.xml:7:5-9:41
 MERGED from [com.hannesdorfmann.mosby:mvp:2.0.1] C:\Users\Чашурин\.android\build-cache\7175168d2384498ed6a48d009fc5d31bacadcc05\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Чашурин\.android\build-cache\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:24.2.0] C:\Users\Чашурин\.android\build-cache\7d492951b72481cdf2924580fbe967d6f48688e8\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.0] C:\Users\Чашурин\.android\build-cache\0633534188c162c857c38b8c3b11bd96937c34d2\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:support-v4:24.2.0] C:\Users\Чашурин\.android\build-cache\40f217174ae907953cb538e8c79e7f3b41360887\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.0] C:\Users\Чашурин\.android\build-cache\86e479ed1343526b718a7d273c4a57393403c3bf\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-utils:24.2.0] C:\Users\Чашурин\.android\build-cache\de434be17025fb480eaed52d93cd3685fa07bbd3\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-media-compat:24.2.0] C:\Users\Чашурин\.android\build-cache\c0aa83e45aed4431babd05ab918d693b9fccb217\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:24.2.0] C:\Users\Чашурин\.android\build-cache\30c608ec13ba8760d2f9c81a581b651a40aeac83\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.0] C:\Users\Чашурин\.android\build-cache\ebedff1bea0e8b519ceab885981557351ab2ca45\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Чашурин\.android\build-cache\5273bd9be6f87099615b080d876d6318ee8caeda\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Чашурин\.android\build-cache\4f75aea53988c87b3261651b1a74c25dc56160cb\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Чашурин\.android\build-cache\a44e0eb22d99832f8d8293a740bcd12956304ca0\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Чашурин\.android\build-cache\654e8f2df56fac58a7242a254725baa2807187fc\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Чашурин\.android\build-cache\88892dbdbe723c2559c7d5c5ffd8f712d02a27fe\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Чашурин\.android\build-cache\909febab4978048351315c92b68a75b9b8cf2149\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Чашурин\.android\build-cache\ab37f6410ec27efbf6bc3e4d200de90e178cc79a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Чашурин\.android\build-cache\b7bdfa2e9fbb62c89dfa43873b4f5175331a2813\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Чашурин\.android\build-cache\1040afceedd5172cc2b44df9d15b10f4ce53837e\output\AndroidManifest.xml:21:5-23:58
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Чашурин\.android\build-cache\143bfa4b3949705f4c489826df94fada35a9937c\output\AndroidManifest.xml:19:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.0] C:\Users\Чашурин\.android\build-cache\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\output\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Чашурин\.android\build-cache\644d2bfbf267f4d2e07a3e1cb99e89b46c1963c3\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
 		INJECTED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Android\Projects\A3_Lesson02\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Чашурин\.android\build-cache\644d2bfbf267f4d2e07a3e1cb99e89b46c1963c3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Чашурин\.android\build-cache\9597c37052fc2a0b752c3797d4f6673abad7566a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Чашурин\.android\build-cache\f7fbad23daebbf590ca6855209a916ac6864b86d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Чашурин\.android\build-cache\5273bd9be6f87099615b080d876d6318ee8caeda\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Чашурин\.android\build-cache\4f75aea53988c87b3261651b1a74c25dc56160cb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Чашурин\.android\build-cache\a44e0eb22d99832f8d8293a740bcd12956304ca0\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Чашурин\.android\build-cache\654e8f2df56fac58a7242a254725baa2807187fc\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Чашурин\.android\build-cache\88892dbdbe723c2559c7d5c5ffd8f712d02a27fe\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Чашурин\.android\build-cache\909febab4978048351315c92b68a75b9b8cf2149\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Чашурин\.android\build-cache\ab37f6410ec27efbf6bc3e4d200de90e178cc79a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Чашурин\.android\build-cache\b7bdfa2e9fbb62c89dfa43873b4f5175331a2813\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Чашурин\.android\build-cache\1040afceedd5172cc2b44df9d15b10f4ce53837e\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Чашурин\.android\build-cache\644d2bfbf267f4d2e07a3e1cb99e89b46c1963c3\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Чашурин\.android\build-cache\644d2bfbf267f4d2e07a3e1cb99e89b46c1963c3\output\AndroidManifest.xml:26:9-47
