@@ -1,10 +1,6 @@
 [
     {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
-    },
-    {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
-        "source": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi\\ic_launcher.png",
+        "source": "C:\\Android\\Projects\\A3_Lesson02\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
     }
 ]

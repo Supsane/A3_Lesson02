@@ -1,82 +1,42 @@
 [
     {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\\output\\res\\anim\\abc_fade_out.xml"
     },
     {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_slide_out_bottom.xml"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\\output\\res\\anim\\abc_popup_enter.xml"
     },
     {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\\output\\res\\anim\\abc_slide_out_bottom.xml"
     },
     {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_slide_in_bottom.xml"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\\output\\res\\anim\\abc_slide_in_bottom.xml"
     },
     {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\\output\\res\\anim\\abc_fade_in.xml"
     },
     {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_fade_in.xml"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\\output\\res\\anim\\abc_slide_in_top.xml"
     },
     {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_popup_exit.xml"
-    },
-    {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_fade_out.xml"
-    },
-    {
-        "merged": "D:\\Programming\\GeekBrains\\Android 03\\Lesson 2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_popup_enter.xml"
-    },
-    {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
-    },
-    {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_slide_out_top.xml"
-    },
-    {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_slide_in_bottom.xml"
-    },
-    {
-        "merged": "D:\\Programming\\Projects\\Android_Project\\Android3\\Lessons_2\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
-        "source": "C:\\Users\\Chashurin Evgeny\\.android\\build-cache\\a768c4434f1d2398ddc9d55db59d7132e54629eb\\output\\res\\anim\\abc_slide_in_top.xml"
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\e71f09a0104e49ce85757383b0d55ec5b6ae7c14\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     }
 ]
