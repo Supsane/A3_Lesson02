@@ -3185,7 +3185,7 @@ containing a value of this type.
         public static final int listMode=0x7f0d001b;
         public static final int list_item=0x7f0d0052;
         public static final int loadingView=0x7f0d0008;
-        public static final int masked=0x7f0d00a3;
+        public static final int masked=0x7f0d00a2;
         public static final int media_actions=0x7f0d008f;
         public static final int middle=0x7f0d0043;
         public static final int mini=0x7f0d0041;
@@ -3205,7 +3205,6 @@ containing a value of this type.
         public static final int progress_circular=0x7f0d0009;
         public static final int progress_horizontal=0x7f0d000a;
         public static final int radio=0x7f0d0067;
-        public static final int recycler_view=0x7f0d00a1;
         public static final int right=0x7f0d0038;
         public static final int right_icon=0x7f0d0097;
         public static final int right_side=0x7f0d0093;
@@ -3266,7 +3265,7 @@ containing a value of this type.
         public static final int up=0x7f0d0010;
         public static final int useLogo=0x7f0d0023;
         public static final int view_offset_helper=0x7f0d0011;
-        public static final int visible=0x7f0d00a2;
+        public static final int visible=0x7f0d00a1;
         public static final int withText=0x7f0d0048;
         public static final int wrap=0x7f0d0014;
         public static final int wrap_content=0x7f0d002f;

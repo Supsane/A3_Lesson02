@@ -14,7 +14,7 @@ public class InfoModelImpl implements InfoModel {
     private static final String BOHICA = "BOHICA";
 
     @Override
-    public Observable<String> retrieveInfo() {
+    public Observable<String[]> retrieveInfo() {
 //        return Observable.timer(2L, TimeUnit.SECONDS).flatMap(new Func1<Long, Observable<String>>() {
 //            @Override
 //            public Observable<String> call(Long aLong) {
@@ -31,19 +31,33 @@ public class InfoModelImpl implements InfoModel {
 //            }
 //        });
 
-        Observable<String> stringObservable = Observable.timer(2L, TimeUnit.SECONDS).flatMap(new Func1<Long, Observable<String>>() {
+        Observable<String[]> stringObservable = Observable.timer(1L, TimeUnit.SECONDS).flatMap(new Func1<Long, Observable<String[]>>() {
             @Override
-            public Observable<String> call(Long aLong) {
-                return Observable.just(FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU);
+            public Observable<String[]> call(Long aLong) {
+                String[] str = {FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU};
+                return Observable.just(str);
             }
         });
 
-        Observable<Integer> integerObservable = Observable.range(1, 10);
-
-        return Observable.combineLatest(stringObservable, integerObservable, new Func2<String, Integer, String>() {
+        Observable<Integer[]> integerObservable = Observable.timer(1L, TimeUnit.SECONDS).flatMap(new Func1<Long, Observable<Integer[]>>() {
             @Override
-            public String call(String s, Integer integer) {
-                return s + integer;
+            public Observable<Integer[]> call(Long aLong) {
+                Integer[] integers = new Integer[10];
+                for (int i = 0; i < 10; i++) {
+                    integers[i] = i;
+                }
+                return Observable.just(integers);
+            }
+        });
+
+        return Observable.combineLatest(stringObservable, integerObservable, new Func2<String[], Integer[], String[]>() {
+            @Override
+            public String[] call(String[] strings, Integer[] integers) {
+                String[] result = new String[strings.length];
+                for (int i = 0; i < 10; i++) {
+                    result[i] = strings[i] + integers[i];
+                }
+                return result;
             }
         });
     }
