@@ -19,9 +19,9 @@ public class InfoActivity extends MvpLceViewStateActivity<TextView, String, Info
     private static final String UNKNOWN_ERROR_MESSAGE = "Unknown error";
 
     private SwipeRefreshLayout swipeRefreshLayout;
-//    private RecyclerView recyclerView;
-//    private RecyclerView.Adapter adapter;
-//    private RecyclerView.LayoutManager layoutManager;
+    private RecyclerView recyclerView;
+    private RecyclerView.Adapter adapter;
+    private RecyclerView.LayoutManager layoutManager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,23 +33,15 @@ public class InfoActivity extends MvpLceViewStateActivity<TextView, String, Info
     }
 
     private void initUI() {
-//        String[] dataSet = getDataSet();
+        String[] dataSet = getPresenter().getStringData();
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
         swipeRefreshLayout.setOnRefreshListener(this);
-//        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-//        layoutManager = new LinearLayoutManager(this);
-//        recyclerView.setLayoutManager(layoutManager);
-//        adapter = new RecyclerAdapter(dataSet);
-//        recyclerView.setAdapter(adapter);
+        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
+        layoutManager = new LinearLayoutManager(this);
+        recyclerView.setLayoutManager(layoutManager);
+        adapter = new RecyclerAdapter(dataSet);
+        recyclerView.setAdapter(adapter);
     }
-
-//    private String[] getDataSet() {
-//        String[] dataSet = new String[100];
-//        for (int i = 0; i < 100; i++) {
-//            dataSet[i] = "item" + i;
-//        }
-//        return dataSet;
-//    }
 
     @NonNull
     @Override

@@ -50,16 +50,31 @@ public class InfoPresenterImpl extends MvpBasePresenter<InfoView> implements Inf
         subscription = model.retrieveInfo().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<String[]>() {
             @Override
             public void call(String[] strings) {
-                String result = "";
-                for (int i = 0; i < strings.length; i++) {
-                    result += strings[i];
-                }
+//                String result = "";
+//                for (int i = 0; i < strings.length; i++) {
+//                    result += strings[i];
+//                }
                 InfoView view = getView();
                 if (isViewAttached()) {
-                    view.setData(result);
                     view.showContent();
                 }
+
             }
         });
     }
+
+    @Override
+    public String[] getStringData() {
+
+        final String[][] dataSet = new String[1][1];
+
+        subscription = model.retrieveInfo().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<String[]>() {
+            @Override
+            public void call(String[] strings) {
+                dataSet[0] = strings;
+            }
+        });
+        return dataSet[0];
+    }
+
 }
