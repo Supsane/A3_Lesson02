@@ -71,6 +71,7 @@ MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Чашур
 MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Чашурин\.android\build-cache\b7bdfa2e9fbb62c89dfa43873b4f5175331a2813\output\AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Чашурин\.android\build-cache\1040afceedd5172cc2b44df9d15b10f4ce53837e\output\AndroidManifest.xml:21:5-23:58
 MERGED from [io.reactivex:rxandroid:1.2.1] C:\Users\Чашурин\.android\build-cache\143bfa4b3949705f4c489826df94fada35a9937c\output\AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton:butterknife:8.4.0] C:\Users\Чашурин\.android\build-cache\3931c6f1b91eaf9bb0877147bf4d8ab51e0cc361\output\AndroidManifest.xml:5:5-43
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.3.1] C:\Users\Чашурин\.android\build-cache\644d2bfbf267f4d2e07a3e1cb99e89b46c1963c3\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion

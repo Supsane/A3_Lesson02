@@ -61,6 +61,7 @@ public class InfoActivity extends MvpLceViewStateActivity<RecyclerView, List<Str
         getPresenter().loadInformation();
     }
 
+    @NonNull
     @Override
     public LceViewState<List<String>, InfoView> createViewState() {
         return new RetainingLceViewState<>();

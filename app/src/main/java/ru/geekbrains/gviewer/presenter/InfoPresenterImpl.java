@@ -30,6 +30,7 @@ public class InfoPresenterImpl extends MvpBasePresenter<InfoView> implements Inf
         super.detachView(retainInstance);
     }
 
+    @SuppressWarnings("ConstantConditions")
     @Override
     public void loadInformation() {
         getView().showLoading(false);

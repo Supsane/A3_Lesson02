@@ -12,12 +12,12 @@
         "source": "C:\\Users\\Чашурин\\.android\\build-cache\\5273bd9be6f87099615b080d876d6318ee8caeda\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\5273bd9be6f87099615b080d876d6318ee8caeda\\output\\res\\drawable\\abc_tab_indicator_material.xml"
-    },
-    {
         "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
         "source": "C:\\Users\\Чашурин\\.android\\build-cache\\5273bd9be6f87099615b080d876d6318ee8caeda\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\5273bd9be6f87099615b080d876d6318ee8caeda\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
         "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
