@@ -11,10 +11,6 @@ import java.util.List;
 
 import ru.geekbrains.gviewer.R;
 
-/**
- * Created by Чашурин on 21.06.2017.
- */
-
 class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
 
     private final List<String> list;
@@ -44,15 +40,13 @@ class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
     }
 
     void addItems(List<String> data) {
-        for (String s : data) {
-            list.add(s);
-        }
+        list.addAll(data);
         notifyDataSetChanged();
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder {
 
-        TextView textView;
+        final TextView textView;
 
         ViewHolder(View itemView) {
             super(itemView);

@@ -3,6 +3,15 @@
 
     <item
         is-multidex="true"
+        jar="C:\Android\Projects\A3_Lesson02\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0bc4b2f2df8fbb16fece5dac7e53e9ba80eb7529\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="C:\Users\Чашурин\.android\build-cache\7175168d2384498ed6a48d009fc5d31bacadcc05\output\jars\classes.jar"
         jumboMode="true"
         optimize="true"
@@ -18,6 +27,24 @@
         revision="25.0.3"
         sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
         <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_909d4635e453ce784947c1b3a99ac34aaac141c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Чашурин\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.0\42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8\rxjava-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8">
+        <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.2.0_d86d7dfb9c032d64a58d5ea1a24e53979ad79ed1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Чашурин\.android\build-cache\3931c6f1b91eaf9bb0877147bf4d8ab51e0cc361\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_1c9d547bb7fcb2264e68ff73a3215efabcf9ae58\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -30,48 +57,21 @@
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Чашурин\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.0\42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8\rxjava-1.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8">
-        <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.2.0_d86d7dfb9c032d64a58d5ea1a24e53979ad79ed1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Чашурин\.gradle\caches\modules-2\files-2.1\com.hannesdorfmann.mosby\mvp-common\2.0.1\d75c9c5577143f3cf3fd63f61526a551f910b56f\mvp-common-2.0.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.0"
-        sha1="d75c9c5577143f3cf3fd63f61526a551f910b56f">
-        <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\mvp-common-2.0.1_8cb592d004cc5c7820424cc042764ebb7672bd22\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Android\Projects\A3_Lesson02\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_0bc4b2f2df8fbb16fece5dac7e53e9ba80eb7529\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Чашурин\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.0\42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8\rxjava-1.2.0.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.3"
-        sha1="42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8">
-        <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.2.0_d86d7dfb9c032d64a58d5ea1a24e53979ad79ed1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
         jar="C:\Users\Чашурин\.gradle\caches\modules-2\files-2.1\com.hannesdorfmann.mosby\mvp-common\2.0.1\d75c9c5577143f3cf3fd63f61526a551f910b56f\mvp-common-2.0.1.jar"
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
         sha1="d75c9c5577143f3cf3fd63f61526a551f910b56f">
         <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\mvp-common-2.0.1_8cb592d004cc5c7820424cc042764ebb7672bd22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Чашурин\.gradle\caches\modules-2\files-2.1\io.reactivex\rxjava\1.2.0\42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8\rxjava-1.2.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="42bfaf64c94f3848ebf5cf1c2ea4ec9d1b3ac6c8">
+        <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\rxjava-1.2.0_d86d7dfb9c032d64a58d5ea1a24e53979ad79ed1\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -99,6 +99,15 @@
         revision="25.0.0"
         sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
         <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_909d4635e453ce784947c1b3a99ac34aaac141c7\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Чашурин\.gradle\caches\modules-2\files-2.1\com.jakewharton\butterknife-annotations\8.4.0\ea392375cf9ff59234a82e7928a204215ccc98cd\butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\butterknife-annotations-8.4.0_3c36d40b159bc36a343dd47d2b9f69ae629e8e37\classes.dex" />
     </item>
     <item
         is-multidex="true"
@@ -115,8 +124,17 @@
         jumboMode="true"
         optimize="true"
         revision="25.0.3"
-        sha1="d18c788d393ba18ef177f23d900b65410f1619a2">
+        sha1="35f2e3a39f9511142977f683b66f93ffec2aa850">
         <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6f597f5471023d3e533d208fe5b8c4bc9cab0287\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Чашурин\.gradle\caches\modules-2\files-2.1\com.hannesdorfmann.mosby\mvp-common\2.0.1\d75c9c5577143f3cf3fd63f61526a551f910b56f\mvp-common-2.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d75c9c5577143f3cf3fd63f61526a551f910b56f">
+        <dex dex="C:\Android\Projects\A3_Lesson02\app\build\intermediates\transforms\dex\debug\folders\1000\10\mvp-common-2.0.1_8cb592d004cc5c7820424cc042764ebb7672bd22\classes.dex" />
     </item>
     <item
         is-multidex="true"

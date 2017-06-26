@@ -5,7 +5,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.widget.TextView;
+
 import com.hannesdorfmann.mosby.mvp.viewstate.lce.LceViewState;
 import com.hannesdorfmann.mosby.mvp.viewstate.lce.MvpLceViewStateActivity;
 import com.hannesdorfmann.mosby.mvp.viewstate.lce.data.RetainingLceViewState;
@@ -21,8 +21,8 @@ public class InfoActivity extends MvpLceViewStateActivity<RecyclerView, List<Str
 
     private static final String UNKNOWN_ERROR_MESSAGE = "Unknown error";
 
-    private SwipeRefreshLayout swipeRefreshLayout = null;
-    private RecyclerAdapter adapter = null;
+    private SwipeRefreshLayout swipeRefreshLayout;
+    private RecyclerAdapter adapter;
 
 
     @Override

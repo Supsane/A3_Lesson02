@@ -8,8 +8,6 @@ import java.util.List;
 import ru.geekbrains.gviewer.model.InfoModel;
 import ru.geekbrains.gviewer.view.InfoView;
 import rx.Subscription;
-import rx.android.schedulers.AndroidSchedulers;
-import rx.functions.Action1;
 import rx.schedulers.Schedulers;
 
 public class InfoPresenterImpl extends MvpBasePresenter<InfoView> implements InfoPresenter {
@@ -35,7 +33,7 @@ public class InfoPresenterImpl extends MvpBasePresenter<InfoView> implements Inf
     public void loadInformation() {
         getView().showLoading(false);
         subscription = model.retrieveInfo().observeOn(Schedulers.immediate()).subscribe(strings -> {
-            InfoView view =getView();
+            InfoView view = getView();
             if (isViewAttached()) {
                 view.setData(strings);
                 view.showContent();

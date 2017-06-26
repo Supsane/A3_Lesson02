@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\644d2bfbf267f4d2e07a3e1cb99e89b46c1963c3\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
-    },
-    {
         "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\Чашурин\\.android\\build-cache\\5273bd9be6f87099615b080d876d6318ee8caeda\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Чашурин\\.android\\build-cache\\644d2bfbf267f4d2e07a3e1cb99e89b46c1963c3\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "C:\\Android\\Projects\\A3_Lesson02\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
