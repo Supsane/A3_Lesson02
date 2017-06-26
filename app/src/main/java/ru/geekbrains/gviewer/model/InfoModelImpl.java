@@ -62,15 +62,12 @@ public class InfoModelImpl implements InfoModel {
 //        });
         Observable<String> stringObservable = Observable.from(new String[]{"A", "B", "C", "D", "E"});
 
-        return Observable.range(1, 5).zipWith(stringObservable, new Func2<Integer, String, String>() {
-            @Override
-            public String call(Integer integer, String s) {
-                double random = Math.random();
-                if (random > 0.95) {
-                    throw new IllegalStateException(ERROR_MSG);
-                }
-                return integer + s;
+        return Observable.range(1, 5).zipWith(stringObservable, (integer, s) -> {
+            double random = Math.random();
+            if (random > 0.95) {
+                throw new IllegalStateException(ERROR_MSG);
             }
+            return integer + s;
         }).buffer(3);
     }
 }
