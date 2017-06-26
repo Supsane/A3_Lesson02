@@ -2,11 +2,15 @@ package ru.geekbrains.gviewer.presenter;
 
 import com.hannesdorfmann.mosby.mvp.MvpBasePresenter;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import ru.geekbrains.gviewer.model.InfoModel;
 import ru.geekbrains.gviewer.view.InfoView;
 import rx.Subscription;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.functions.Action1;
+import rx.schedulers.Schedulers;
 
 public class InfoPresenterImpl extends MvpBasePresenter<InfoView> implements InfoPresenter {
 
@@ -29,52 +33,41 @@ public class InfoPresenterImpl extends MvpBasePresenter<InfoView> implements Inf
     @Override
     public void loadInformation() {
         getView().showLoading(false);
-//        subscription = model.retrieveInfo().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<String>() {
-//            @Override
-//            public void call(String s) {
-//                InfoView view = getView();
-//                if (isViewAttached()) {
-//                    view.setData(s);
-//                    view.showContent();
-//                }
-//            }
-//        }, new Action1<Throwable>() {
-//            @Override
-//            public void call(Throwable throwable) {
-//                if (isViewAttached()) {
-//                    getView().showError(throwable, false);
-//                }
-//            }
-//        });
-
-        subscription = model.retrieveInfo().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<String[]>() {
+        subscription = model.retrieveInfo().observeOn(Schedulers.immediate()).subscribe(new Action1<List<String>>() {
             @Override
-            public void call(String[] strings) {
+            public void call(List<String> strings) {
+                InfoView view =getView();
+                if (isViewAttached()) {
+                    view.setData(strings);
+                    view.showContent();
+                }
+            }
+        }, new Action1<Throwable>() {
+            @Override
+            public void call(Throwable throwable) {
+                if (isViewAttached()) {
+                    List<String> list = new ArrayList<>();
+                    list.add(throwable.getMessage());
+                    getView().setData(list);
+                    getView().showContent();
+                }
+            }
+        });
+
+//        subscription = model.retrieveInfo().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<String[]>() {
+//            @Override
+//            public void call(String[] strings) {
 //                String result = "";
 //                for (int i = 0; i < strings.length; i++) {
 //                    result += strings[i];
 //                }
-                InfoView view = getView();
-                if (isViewAttached()) {
-                    view.showContent();
-                }
-
-            }
-        });
-    }
-
-    @Override
-    public String[] getStringData() {
-
-        final String[][] dataSet = new String[1][1];
-
-        subscription = model.retrieveInfo().observeOn(AndroidSchedulers.mainThread()).subscribe(new Action1<String[]>() {
-            @Override
-            public void call(String[] strings) {
-                dataSet[0] = strings;
-            }
-        });
-        return dataSet[0];
+//                InfoView view = getView();
+//                if (isViewAttached()) {
+//                    view.showContent();
+//                }
+//
+//            }
+//        });
     }
 
 }

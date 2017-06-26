@@ -5,36 +5,49 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+
+import java.util.ArrayList;
+import java.util.List;
+
 import ru.geekbrains.gviewer.R;
 
 /**
  * Created by Чашурин on 21.06.2017.
  */
 
-public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
+class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHolder> {
 
-    private String[] dataSet;
+    private final List<String> list;
 
-    public RecyclerAdapter(String[] dataSet) {
-        this.dataSet = dataSet;
+    List<String> getList() {
+        return list;
+    }
+
+    RecyclerAdapter() {
+        list = new ArrayList<>();
     }
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-
         View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.recycler_item, parent, false);
-
         return new ViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
-        holder.textView.setText(dataSet[position]);
+        holder.textView.setText(list.get(position));
     }
 
     @Override
     public int getItemCount() {
-        return dataSet.length;
+        return list.size();
+    }
+
+    void addItems(List<String> data) {
+        for (String s : data) {
+            list.add(s);
+        }
+        notifyDataSetChanged();
     }
 
     static class ViewHolder extends RecyclerView.ViewHolder {
@@ -43,7 +56,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
 
         ViewHolder(View itemView) {
             super(itemView);
-            textView = (TextView) itemView.findViewById(com.hannesdorfmann.mosby.mvp.R.id.contentView);
+            textView = (TextView) itemView.findViewById(R.id.text_for_item);
         }
     }
 }

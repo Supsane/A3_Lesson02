@@ -6,5 +6,4 @@ import ru.geekbrains.gviewer.view.InfoView;
 
 public interface InfoPresenter extends MvpPresenter<InfoView> {
 	void loadInformation();
-	String[] getStringData();
 }

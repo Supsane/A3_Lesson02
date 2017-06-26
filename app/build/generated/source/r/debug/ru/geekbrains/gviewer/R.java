@@ -3205,7 +3205,6 @@ containing a value of this type.
         public static final int progress_circular=0x7f0d0009;
         public static final int progress_horizontal=0x7f0d000a;
         public static final int radio=0x7f0d0067;
-        public static final int recycler_view=0x7f0d00a1;
         public static final int right=0x7f0d0038;
         public static final int right_icon=0x7f0d0097;
         public static final int right_side=0x7f0d0093;
@@ -3245,12 +3244,13 @@ containing a value of this type.
         public static final int status_bar_latest_event_content=0x7f0d008e;
         public static final int submenuarrow=0x7f0d0068;
         public static final int submit_area=0x7f0d0079;
-        public static final int swipe_refresh_layout=0x7f0d00a0;
+        public static final int swipe_refresh_layout=0x7f0d00a1;
         public static final int tabMode=0x7f0d001d;
         public static final int text=0x7f0d009e;
         public static final int text2=0x7f0d009c;
         public static final int textSpacerNoButtons=0x7f0d005c;
         public static final int textSpacerNoTitle=0x7f0d005b;
+        public static final int text_for_item=0x7f0d00a0;
         public static final int text_input_password_toggle=0x7f0d0088;
         public static final int textinput_counter=0x7f0d000c;
         public static final int textinput_error=0x7f0d000d;

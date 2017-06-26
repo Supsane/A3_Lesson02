@@ -1,20 +1,20 @@
 package ru.geekbrains.gviewer.model;
 
-import java.util.concurrent.TimeUnit;
+import java.util.List;
 
 import rx.Observable;
-import rx.Subscriber;
-import rx.functions.Func1;
 import rx.functions.Func2;
 
 public class InfoModelImpl implements InfoModel {
 
-    private static final String FUBAR = "FUBAR";
-    private static final String SUSFU = "SUSFU";
-    private static final String BOHICA = "BOHICA";
+//    private static final String FUBAR = "FUBAR";
+//    private static final String SUSFU = "SUSFU";
+//    private static final String BOHICA = "BOHICA";
+
+    private static final String ERROR_MSG = " ";
 
     @Override
-    public Observable<String[]> retrieveInfo() {
+    public Observable<List<String>> retrieveInfo() {
 //        return Observable.timer(2L, TimeUnit.SECONDS).flatMap(new Func1<Long, Observable<String>>() {
 //            @Override
 //            public Observable<String> call(Long aLong) {
@@ -30,35 +30,47 @@ public class InfoModelImpl implements InfoModel {
 //                return result;
 //            }
 //        });
+//
+//        Observable<String[]> stringObservable = Observable.timer(1L, TimeUnit.SECONDS).flatMap(new Func1<Long, Observable<String[]>>() {
+//            @Override
+//            public Observable<String[]> call(Long aLong) {
+//                String[] str = {FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU};
+//                return Observable.just(str);
+//            }
+//        });
+//
+//        Observable<Integer[]> integerObservable = Observable.timer(1L, TimeUnit.SECONDS).flatMap(new Func1<Long, Observable<Integer[]>>() {
+//            @Override
+//            public Observable<Integer[]> call(Long aLong) {
+//                Integer[] integers = new Integer[10];
+//                for (int i = 0; i < 10; i++) {
+//                    integers[i] = i;
+//                }
+//                return Observable.just(integers);
+//            }
+//        });
+//
+//        return Observable.combineLatest(stringObservable, integerObservable, new Func2<String[], Integer[], String[]>() {
+//            @Override
+//            public String[] call(String[] strings, Integer[] integers) {
+//                String[] result = new String[strings.length];
+//                for (int i = 0; i < 10; i++) {
+//                    result[i] = strings[i] + integers[i];
+//                }
+//                return result;
+//            }
+//        });
+        Observable<String> stringObservable = Observable.from(new String[]{"A", "B", "C", "D", "E"});
 
-        Observable<String[]> stringObservable = Observable.timer(1L, TimeUnit.SECONDS).flatMap(new Func1<Long, Observable<String[]>>() {
+        return Observable.range(1, 5).zipWith(stringObservable, new Func2<Integer, String, String>() {
             @Override
-            public Observable<String[]> call(Long aLong) {
-                String[] str = {FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU, FUBAR, SUSFU};
-                return Observable.just(str);
-            }
-        });
-
-        Observable<Integer[]> integerObservable = Observable.timer(1L, TimeUnit.SECONDS).flatMap(new Func1<Long, Observable<Integer[]>>() {
-            @Override
-            public Observable<Integer[]> call(Long aLong) {
-                Integer[] integers = new Integer[10];
-                for (int i = 0; i < 10; i++) {
-                    integers[i] = i;
+            public String call(Integer integer, String s) {
+                double random = Math.random();
+                if (random > 0.95) {
+                    throw new IllegalStateException(ERROR_MSG);
                 }
-                return Observable.just(integers);
+                return integer + s;
             }
-        });
-
-        return Observable.combineLatest(stringObservable, integerObservable, new Func2<String[], Integer[], String[]>() {
-            @Override
-            public String[] call(String[] strings, Integer[] integers) {
-                String[] result = new String[strings.length];
-                for (int i = 0; i < 10; i++) {
-                    result[i] = strings[i] + integers[i];
-                }
-                return result;
-            }
-        });
+        }).buffer(3);
     }
 }

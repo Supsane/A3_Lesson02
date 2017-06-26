@@ -9,38 +9,34 @@ import android.widget.TextView;
 import com.hannesdorfmann.mosby.mvp.viewstate.lce.LceViewState;
 import com.hannesdorfmann.mosby.mvp.viewstate.lce.MvpLceViewStateActivity;
 import com.hannesdorfmann.mosby.mvp.viewstate.lce.data.RetainingLceViewState;
+
+import java.util.List;
+
 import ru.geekbrains.gviewer.R;
 import ru.geekbrains.gviewer.model.InfoModelImpl;
 import ru.geekbrains.gviewer.presenter.InfoPresenter;
 import ru.geekbrains.gviewer.presenter.InfoPresenterImpl;
 
-public class InfoActivity extends MvpLceViewStateActivity<TextView, String, InfoView, InfoPresenter> implements InfoView, SwipeRefreshLayout.OnRefreshListener {
+public class InfoActivity extends MvpLceViewStateActivity<RecyclerView, List<String>, InfoView, InfoPresenter> implements InfoView, SwipeRefreshLayout.OnRefreshListener {
 
     private static final String UNKNOWN_ERROR_MESSAGE = "Unknown error";
 
-    private SwipeRefreshLayout swipeRefreshLayout;
-    private RecyclerView recyclerView;
-    private RecyclerView.Adapter adapter;
-    private RecyclerView.LayoutManager layoutManager;
+    private SwipeRefreshLayout swipeRefreshLayout = null;
+    private RecyclerAdapter adapter = null;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setRetainInstance(true);
         setContentView(R.layout.screen_info);
-        initUI();
-        //loadData(false);
-    }
-
-    private void initUI() {
-        String[] dataSet = getPresenter().getStringData();
         swipeRefreshLayout = (SwipeRefreshLayout) findViewById(R.id.swipe_refresh_layout);
         swipeRefreshLayout.setOnRefreshListener(this);
-        recyclerView = (RecyclerView) findViewById(R.id.recycler_view);
-        layoutManager = new LinearLayoutManager(this);
-        recyclerView.setLayoutManager(layoutManager);
-        adapter = new RecyclerAdapter(dataSet);
-        recyclerView.setAdapter(adapter);
+        RecyclerView.LayoutManager layoutManager = new LinearLayoutManager(this);
+        contentView.setLayoutManager(layoutManager);
+        contentView.setHasFixedSize(true);
+        adapter = new RecyclerAdapter();
+        contentView.setAdapter(adapter);
     }
 
     @NonNull
@@ -52,13 +48,12 @@ public class InfoActivity extends MvpLceViewStateActivity<TextView, String, Info
     @Override
     protected String getErrorMessage(Throwable e, boolean pullToRefresh) {
         String errorMessage = e.getMessage();
-//        return errorMessage == null ? UNKNOWN_ERROR_MESSAGE : errorMessage;
-        return "Пустая строка";
+        return errorMessage == null ? UNKNOWN_ERROR_MESSAGE : errorMessage;
     }
 
     @Override
-    public void setData(String data) {
-        contentView.setText(data);
+    public void setData(List<String> data) {
+        adapter.addItems(data);
     }
 
     @Override
@@ -67,13 +62,13 @@ public class InfoActivity extends MvpLceViewStateActivity<TextView, String, Info
     }
 
     @Override
-    public LceViewState<String, InfoView> createViewState() {
+    public LceViewState<List<String>, InfoView> createViewState() {
         return new RetainingLceViewState<>();
     }
 
     @Override
-    public String getData() {
-        return contentView.getText().toString();
+    public List<String> getData() {
+        return adapter.getList();
     }
 
     @Override
